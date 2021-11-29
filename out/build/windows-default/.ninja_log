@@ -1,6 +1,0 @@
-# ninja log v5
-1	635	6586819223674369	build.ninja	5cde09c0b9ddccbb
-0	337	6586717616964554	CMakeFiles/demo.dir/struct_complex.cpp.obj	93644b2693862639
-338	564	6586717619074565	demo.exe	b5097767d91452f7
-2	402	6586819725892941	CMakeFiles/demo.dir/WString/WString.cpp.obj	158b2a8c9aa8845
-0	643	6586819728312960	CMakeFiles/demo.dir/WString/use_WString.cpp.obj	e2c161edbee63a25
