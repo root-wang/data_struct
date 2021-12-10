@@ -1,10 +1,5 @@
 #include <iostream>
 
-/*todo:
- * 1. 加减乘除 四则运算
- * 2. 除法判断分母是否为零
- * 3. 指针 和 引用
- */
 struct Complex {
     double m_r = 0, m_i = 0;
 };
@@ -90,4 +85,3 @@ int main() {
     return 0;
 
 }
-

@@ -41,6 +41,19 @@ private:
             exit(-1);
         }
     };
+    
+    int pos_node(const chainNode<T> &p)const{
+        chainNode<T> *current_pos = head->next;
+        int pos = 0;
+        while (current_pos){
+            if(current_pos==&p){
+                return pos;
+            }
+            pos++;
+            current_pos = current_pos->next;
+        }
+        return -1;
+    }
 
 public:
     //    构造函数
@@ -151,6 +164,14 @@ public:
     void reverse();
     //箱子排序
     void bin_sort(int range);
+    
+    //    交替合并两个链表
+    Chain<T>&meld(Chain<T> &x);
+
+//    将两个有序链表(从左至右非递减)合并为一个新链表
+    Chain<T>&merge(Chain<T>&);
+    
+    
 };
 
 #endif //GREEDYLOADING_CPP_CHAIN_H

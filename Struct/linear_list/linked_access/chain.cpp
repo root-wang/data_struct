@@ -205,7 +205,23 @@ void Chain<T>::remove_range(int from_index,
 template <typename T>
 int Chain<T>::last_indexOf(T &e) const
 {
-    return 0;
+    chainNode<T> *current_pos;
+    chainNode<T> *next_pos = head->next;
+    
+    
+    while (next_pos){
+        if(next_pos->m_data==e){
+            break;
+        }
+        next_pos = next_pos->next;
+    }
+    while (next_pos){
+        if(next_pos->m_data==e){
+            current_pos = next_pos;
+        }
+        next_pos = next_pos->next;
+    }
+    return pos_node(*current_pos);
 }
 
 template <typename T>
@@ -217,36 +233,92 @@ T &Chain<T>::operator[](int index) const
 template <typename T>
 bool Chain<T>::operator==(const Chain<T> &x) const
 {
-    return false;
+    if(m_length!=x.m_length)return false;
+    chainNode<T> *current_p_this = head->next;
+    chainNode<T> *current_p_that = x.head->next;
+    
+    while (current_p_this){
+        if(current_p_this->m_data!=current_p_that->m_data){
+            return false;
+        }
+        current_p_this = current_p_this->next;
+        current_p_that = current_p_that->next;
+    }
+    return true;
 }
+
 
 template <typename T>
 bool Chain<T>::operator!=(const Chain<T> &x) const
 {
-    return false;
+    if(*this==x)return false;
+    return true;
 }
+
 
 template <typename T>
 bool Chain<T>::operator<(const Chain<T> &x) const
 {
-    return false;
+    if(m_length!=x.m_length)return false;
+    chainNode<T> *current_p_this = head->next;
+    chainNode<T> *current_p_that = x.head->next;
+    
+    while (current_p_this){
+        if(!(current_p_this->m_data<current_p_that->m_data)){
+            return false;
+        }
+        current_p_this = current_p_this->next;
+        current_p_that = current_p_that->next;
+    }
+    return true;
 }
 
 template <typename T>
 int Chain<T>::swap(const Chain<T> &the_chain)
 {
-    return 0;
+    if(m_length!=the_chain.m_length){
+        return -1;
+    }
+    
+    chainNode<T> *current_p_this = head->next;
+    chainNode<T> *current_p_that = the_chain.head->next;
+    
+    while (current_p_this){
+        std::swap(current_p_this->m_data,current_p_that->m_data);
+        current_p_this = current_p_this->next;
+        current_p_that = current_p_that->next;
+    }
+    return 1;
 }
 
 template <typename T>
 int Chain<T>::left_shift(int i)
 {
+    int pos = 0;
+    chainNode<T> *current_pos_p = head->next;
+    while (pos<i){
+        chainNode<T> *del_node = current_pos_p;
+        current_pos_p = current_pos_p->next;
+        pos++;
+        delete del_node;
+    }
+    head->next = current_pos_p;
+    m_length -=i;
     return 0;
 }
 
 template <typename T>
 void Chain<T>::reverse()
 {
+    chainNode<T> *current_p = nullptr;
+    chainNode<T> *next_p = head->next;
+    while (next_p){
+        chainNode<T> *tmp = next_p->next;
+        next_p->next = current_p;
+        current_p = next_p;
+        next_p = tmp;
+    }
+    head->next = current_p;
 }
 
 template <typename T>
@@ -298,4 +370,46 @@ void Chain<T>::bin_sort(int range)
     }
     delete[] base;
     delete[] top;
+}
+
+template<typename T>
+Chain<T> &Chain<T>::meld(Chain<T> &x) {
+    static Chain<T> meld_new(m_length+x.m_length);
+    
+    chainNode<T> *p_this = head->next;
+    chainNode<T> *p_that = x.head->next;
+    chainNode<T> *p_meld = meld_new.head;
+    
+    int flag = 0;
+    
+    while (p_this&&p_that){
+        if(flag==0){
+            p_meld->next = p_this;
+            
+            p_this = p_this->next;
+            p_meld = p_meld->next;
+            flag = 1;
+        } else if(flag==1){
+            p_meld->next = p_that;
+    
+            p_that = p_that->next;
+            p_meld = p_meld->next;
+            flag = 0;
+        }
+    }
+
+    if (p_this){
+        p_meld->next = p_this;
+    } else if(p_that){
+        p_meld->next = p_that;
+    }
+    delete head;
+    delete x.head;
+    return meld_new;
+}
+
+//TODO:
+template<typename T>
+Chain<T> &Chain<T>::merge(Chain<T> &) {
+
 }

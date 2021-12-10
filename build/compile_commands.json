@@ -1,12 +1,12 @@
 [
 {
-  "directory": "F:/code/C++/learning/build",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\X86_64~2.EXE   -g -std=gnu++14 -o CMakeFiles\\demo.dir\\Struct\\linear_list\\linked_access\\chain.cpp.obj -c F:\\code\\C++\\learning\\Struct\\linear_list\\linked_access\\chain.cpp",
-  "file": "F:/code/C++/learning/Struct/linear_list/linked_access/chain.cpp"
+  "directory": "F:/code/Cpp/learning_/build",
+  "command": "C:\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -std=gnu++11 -o CMakeFiles\\demo.dir\\Struct\\linear_list\\linked_access\\chain.cpp.obj -c F:\\code\\Cpp\\learning_\\Struct\\linear_list\\linked_access\\chain.cpp",
+  "file": "F:/code/Cpp/learning_/Struct/linear_list/linked_access/chain.cpp"
 },
 {
-  "directory": "F:/code/C++/learning/build",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\X86_64~2.EXE   -g -std=gnu++14 -o CMakeFiles\\demo.dir\\Struct\\linear_list\\linked_access\\use_chain.cpp.obj -c F:\\code\\C++\\learning\\Struct\\linear_list\\linked_access\\use_chain.cpp",
-  "file": "F:/code/C++/learning/Struct/linear_list/linked_access/use_chain.cpp"
+  "directory": "F:/code/Cpp/learning_/build",
+  "command": "C:\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -std=gnu++11 -o CMakeFiles\\demo.dir\\Struct\\linear_list\\linked_access\\use_chain.cpp.obj -c F:\\code\\Cpp\\learning_\\Struct\\linear_list\\linked_access\\use_chain.cpp",
+  "file": "F:/code/Cpp/learning_/Struct/linear_list/linked_access/use_chain.cpp"
 }
 ]

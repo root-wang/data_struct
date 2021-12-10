@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="learning" targetName="demo" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3c9bf3fc-9cbc-4606-99db-1f12f52a1c2b" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/Struct/graph/adjacencyList.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Struct/graph/adjacencyList.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Struct/graph/图的搜索.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Struct/matrix/linkedMatrix.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Struct/matrix/linkedMatrix.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Struct/matrix/sparseMatrix.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Struct/matrix/sparseMatrix.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/wang.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/learning.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/markdown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructuresAlgorithmsandApplication/chapter8/stack/array_stack.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructuresAlgorithmsandApplication/chapter8/stack/arrayStack.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructuresAlgorithmsandApplication/chapter8/stack/array_stack.h" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructuresAlgorithmsandApplication/chapter8/stack/arrayStack.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructuresAlgorithmsandApplication/chapter8/stack/use_stack.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructuresAlgorithmsandApplication/chapter8/stack/use_stack.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struct/graph/Adiacency_list.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struct/graph/Adjacency_list.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struct/graph/Adjacent_matrix.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Struct/graph/adjacentMatrix.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struct/graph/Adjacent_matrix.h" beforeDir="false" afterPath="$PROJECT_DIR$/Struct/graph/adjacentMatrix.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struct/graph/图的存储结构.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struct/linear_list/linked_access/chain.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Struct/linear_list/linked_access/chain.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struct/linear_list/linked_access/chain.h" beforeDir="false" afterPath="$PROJECT_DIR$/Struct/linear_list/linked_access/chain.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struct/linear_list/linked_access/use_chain.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Struct/linear_list/linked_access/use_chain.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struct/linear_list/sequential_access/Linear_list.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Struct/linear_list/sequential_access/linearList.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struct/linear_list/sequential_access/Linear_list.h" beforeDir="false" afterPath="$PROJECT_DIR$/Struct/linear_list/sequential_access/linearList.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struct/linear_list/sequential_access/use_linear_list.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Struct/linear_list/sequential_access/use_linearList.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struct/matrix/matrix.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Struct/matrix/matrix.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struct/matrix/matrix.h" beforeDir="false" afterPath="$PROJECT_DIR$/Struct/matrix/matrix.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struct/matrix/use_matrix.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Struct/matrix/use_matrix.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struct/stack_and_queue/queue/Array_queue.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Struct/stack_and_queue/queue/arrayQueue.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struct/stack_and_queue/queue/Array_queue.h" beforeDir="false" afterPath="$PROJECT_DIR$/Struct/stack_and_queue/queue/arrayQueue.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struct/stack_and_queue/queue/link_queue.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Struct/stack_and_queue/queue/linkQueue.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struct/stack_and_queue/queue/link_queue.h" beforeDir="false" afterPath="$PROJECT_DIR$/Struct/stack_and_queue/queue/linkQueue.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struct/stack_and_queue/queue/use_queue.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Struct/stack_and_queue/queue/use_queue.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struct/stack_and_queue/stack/link_stack.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Struct/stack_and_queue/stack/linkStack.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struct/stack_and_queue/stack/sq_stack.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Struct/stack_and_queue/stack/sqStack.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struct/tree/BinaryTree/Binary_tree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Struct/tree/BinaryTree/binaryTree.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struct/tree/BinaryTree/Binary_tree.h" beforeDir="false" afterPath="$PROJECT_DIR$/Struct/tree/BinaryTree/binaryTree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struct/tree/huffman_tree/Huffman_code.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Struct/tree/huffman_tree/huffmanCode.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struct/tree/huffman_tree/Huffman_tree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Struct/tree/huffman_tree/huffmanTree.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struct/tree/huffman_tree/Huffman_tree.h" beforeDir="false" afterPath="$PROJECT_DIR$/Struct/tree/huffman_tree/huffmanTree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struct/tree/huffman_tree/use_Huffman_tree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Struct/tree/huffman_tree/use_Huffman_tree.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cmake/api/v1/query/client-vscode/query.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cmake/api/v1/reply/cache-v2-b4a40fd7804474aea7d0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cmake/api/v1/reply/codemodel-v2-761f20309b4c5e0dfcd5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cmake/api/v1/reply/index-2021-12-10T10-12-44-0327.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cmake/api/v1/reply/target-demo-Debug-3c1ae6d00787db548ced.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cmake/api/v1/reply/toolchains-v1-9e6c9f8bc13b0ead7b1e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.21.0-rc3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.21.0-rc3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.21.0-rc3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.21.0-rc3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.21.0-rc3/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.21.0-rc3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.21.0-rc3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.21.0-rc3/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.21.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.21.0-rc3/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/demo.dir/Algorithm/greedy_method/test.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/demo.dir/Algorithm/greedy_method/test.cpp.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/demo.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/demo.dir/Struct/heap/maxHeap.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/demo.dir/Struct/heap/maxHeap.cpp.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/demo.dir/Struct/heap/use_maxHeap.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/demo.dir/Struct/heap/use_maxHeap.cpp.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/demo.dir/Struct/linear_list/linked_access/chain.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/demo.dir/Struct/linear_list/linked_access/chain.cpp.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/demo.dir/Struct/linear_list/linked_access/use_chain.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/demo.dir/Struct/linear_list/linked_access/use_chain.cpp.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/demo.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Struct/graph/图的应用.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/demo.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/demo.dir/compiler_depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/demo.dir/compiler_depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/demo.dir/compiler_depend.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/demo.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/demo.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/demo.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/demo.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/demo.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/demo.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/demo.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/demo.dir/tree/huffman_tree/Huffman_code.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/demo.dir/tree/huffman_tree/Huffman_code.cpp.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/demo.dir/tree/huffman_tree/Huffman_tree.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/demo.dir/tree/huffman_tree/Huffman_tree.cpp.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/demo.dir/tree/huffman_tree/use_Huffman_tree.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/demo.dir/tree/huffman_tree/use_Huffman_tree.cpp.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/compile_commands.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/demo.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/struct_complex.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/struct_complex.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/结构种类.md" beforeDir="false" afterPath="$PROJECT_DIR$/结构种类.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Struct/matrix/linkedMatrix.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CMakeLists.txt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Struct/matrix/linkedMatrix.h" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2021" />
+    <option name="minorVersion" value="3" />
+  </component>
+  <component name="ProjectId" id="22YAVpspMDv4fxqsV5YxYg7Th7c" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WAV_Struct" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
+  </component>
+  <component name="RunManager">
+    <configuration name="demo" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="learning" TARGET_NAME="demo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="learning" RUN_TARGET_NAME="demo">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="3c9bf3fc-9cbc-4606-99db-1f12f52a1c2b" name="变更" comment="" />
+      <created>1640004175252</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640004175252</updated>
+      <workItem from="1640004177825" duration="186000" />
+      <workItem from="1640004719339" duration="4987000" />
+      <workItem from="1640009753269" duration="3321000" />
+      <workItem from="1640067380855" duration="5482000" />
+      <workItem from="1640075570857" duration="147000" />
+      <workItem from="1640075743497" duration="122000" />
+      <workItem from="1640075877311" duration="2875000" />
+      <workItem from="1640092084074" duration="6609000" />
+      <workItem from="1640107632181" duration="4866000" />
+      <workItem from="1640147310773" duration="3575000" />
+      <workItem from="1640156248034" duration="4664000" />
+      <workItem from="1640162113995" duration="886000" />
+      <workItem from="1640163062275" duration="5247000" />
+      <workItem from="1640177384718" duration="1522000" />
+      <workItem from="1640179648580" duration="1290000" />
+      <workItem from="1640195901163" duration="319000" />
+      <workItem from="1640248202042" duration="56000" />
+      <workItem from="1640248353291" duration="2665000" />
+      <workItem from="1640251874486" duration="485000" />
+      <workItem from="1640258803543" duration="41000" />
+      <workItem from="1640264718238" duration="70000" />
+      <workItem from="1640275113352" duration="26000" />
+      <workItem from="1640275806460" duration="52000" />
+      <workItem from="1640276094658" duration="1643000" />
+      <workItem from="1640277913239" duration="14000" />
+      <workItem from="1640332418285" duration="14707000" />
+      <workItem from="1640357630034" duration="23000" />
+      <workItem from="1640519637029" duration="1597000" />
+      <workItem from="1640527325416" duration="765000" />
+      <workItem from="1640586616119" duration="6839000" />
+      <workItem from="1640609702930" duration="5972000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Struct/matrix/linkedMatrix.cpp</url>
+          <line>31</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Struct/matrix/linkedMatrix.cpp</url>
+          <line>34</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Struct/linear_list/linked_access/use_chain.cpp</url>
+          <line>31</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="meld_new.head-&gt;next-&gt;next-&gt;next-&gt;next-&gt;next-&gt;next-&gt;next-&gt;next" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
