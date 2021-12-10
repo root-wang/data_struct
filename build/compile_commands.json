@@ -1,0 +1,12 @@
+[
+{
+  "directory": "F:/code/C++/learning/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\X86_64~2.EXE   -g -std=gnu++14 -o CMakeFiles\\demo.dir\\Struct\\linear_list\\linked_access\\chain.cpp.obj -c F:\\code\\C++\\learning\\Struct\\linear_list\\linked_access\\chain.cpp",
+  "file": "F:/code/C++/learning/Struct/linear_list/linked_access/chain.cpp"
+},
+{
+  "directory": "F:/code/C++/learning/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-W\\mingw64\\bin\\X86_64~2.EXE   -g -std=gnu++14 -o CMakeFiles\\demo.dir\\Struct\\linear_list\\linked_access\\use_chain.cpp.obj -c F:\\code\\C++\\learning\\Struct\\linear_list\\linked_access\\use_chain.cpp",
+  "file": "F:/code/C++/learning/Struct/linear_list/linked_access/use_chain.cpp"
+}
+]
